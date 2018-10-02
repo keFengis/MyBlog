@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/web?characterEncoding=UTF-8</property>
+        <!--<property name="connection.url">jdbc:mysql://47.94.244.20:3306/web?characterEncoding=UTF-8</property>-->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">1234</property>
+        <property name="hibernate.show_sql">true</property><!-- 配置显示sql语句 -->
+        <!-- 配置JDBC里batch的大小 -->
+        <property name="jdbc.batch_size">50</property>
+        <property name="cache.use_second_level_cache">false</property>
+        <!-- 配置线程安全的session -->
+        <!--<property name="current_session_context_class">thread</property>-->
+        <mapping resource="org/flydog/vo/Comments.hbm.xml"/>
+        <mapping resource="org/flydog/vo/Posts.hbm.xml"/>
+        <mapping resource="org/flydog/vo/Classify.hbm.xml"/>
+        <mapping resource="org/flydog/vo/Link.hbm.xml"/>
+        <mapping resource="org/flydog/vo/Surfwell.hbm.xml"/>
+        <mapping resource="org/flydog/vo/User.hbm.xml"/>
+        <mapping resource="org/flydog/vo/Temp.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

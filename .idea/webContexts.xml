@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/mdeditor/examples/simple.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/mdeditor/examples" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/admin.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/bkedit.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/detail.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/editadd.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/mdtest.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/miscellaneous.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/simple.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/web/WEB-INF/pages/update.jsp" value="file://$PROJECT_DIR$/web/WEB-INF/pages" />
+      </map>
+    </option>
+  </component>
+</project>

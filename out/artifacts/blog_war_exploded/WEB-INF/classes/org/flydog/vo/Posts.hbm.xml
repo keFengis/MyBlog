@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="org.flydog.vo.Posts" table="posts" schema="web">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="date">
+            <column name="date" sql-type="timestamp" not-null="true"/>
+        </property>
+        <property name="content">
+            <column name="content" sql-type="text" not-null="true"/>
+        </property>
+        <property name="author">
+            <column name="author" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="delstate">
+            <column name="delstate" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="type">
+            <column name="type" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="part">
+            <column name="part" sql-type="varchar(3000)" length="3000" not-null="true"/>
+        </property>
+        <property name="title">
+            <column name="title" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="readnum">
+            <column name="readnum" sql-type="int(11)" length="45" not-null="true"/>
+        </property>
+        <property name="fbanner">
+            <column name="fbanner" sql-type="varchar(1000)" length="1000" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
